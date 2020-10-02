@@ -32,7 +32,7 @@ impl Component for About {
                         >
                             { "Create Yew App" }
                         </a>
-                        { ", Set up a modern yew web app by running one command." }
+                        { " or else, Set up a modern yew web app by running one command." }
                     </p>
                     <p>
                         { "Edit " } <code>{ "src/components/about.rs" }</code> { " and save to reload." }
