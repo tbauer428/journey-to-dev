@@ -27,7 +27,7 @@ impl Component for Nav {
             <nav>
                 <ul>
                     <li><RouterAnchor<AppRoute> route=AppRoute::Home classes="app-link" >{ "Home" }</RouterAnchor<AppRoute>></li>
-                    <li><RouterAnchor<AppRoute> route=AppRoute::About classes="app-link">{ "About" }</RouterAnchor<AppRoute>></li>
+                    <li><RouterAnchor<AppRoute> route=AppRoute::About classes="app-link">{ "what I'm up to" }</RouterAnchor<AppRoute>></li>
                 </ul>
             </nav>
         }
